@@ -1,0 +1,116 @@
+/* Login.css */
+
+/* Container for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../buddybakingdskwall.png'); /* Path to your wallpaper */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Wrapper for the login form */
+.form-wrapper {
+    background: rgba(255, 255, 255, 0.9);  /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Logo styling */
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Title styling */
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3E2723;  /* Dark brown for the title */
+    font-weight: bold;
+}
+
+/* Login form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input field styling */
+.input-field {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px;
+    background-color: #3E2723;  /* Dark brown */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.btn:hover {
+    background-color: #1B0000;  /* Very dark brown */
+}
+
+/* Disabled button styling */
+.btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    color: #888;
+}
+
+/* Redirect text styling (below the form) */
+.redirect-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Link styling */
+.link {
+    color: #3E2723;  /* Dark brown */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4d4d;  /* Bright red for visibility */
+    background-color: #ffe6e6;  /* Light red background */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Info text styling (new) */
+.info-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}

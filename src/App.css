@@ -1,0 +1,64 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial Rounded MT Bold', Arial, sans-serif; /* Set the font to Arial Rounded MT Bold */
+}
+
+.title {
+  font-size: 64px; /* Increased font size for larger title */
+  color: #5E35B1;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space between the title and the border */
+}
+
+.border-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 3px solid #5C4033; /* Add a border around the buttons */
+  border-radius: 10px; /* Rounded corners for the border */
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for better contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.button-container {
+  display: flex; /* Use flex to arrange buttons side by side */
+  gap: 20px; /* Space between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 10px; /* Add some space above the buttons */
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #4E2A1C; /* Dark brown button color */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #3E1F12; /* Darker brown for hover effect */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    gap: 10px;
+  }
+}
